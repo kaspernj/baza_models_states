@@ -1,6 +1,8 @@
-# baza_models_states
+[![Build Status](https://api.shippable.com/projects/55f5aebd1895ca447414f889/badge?branchName=master)](https://app.shippable.com/projects/55f5aebd1895ca447414f889/builds/latest)
 
-Description goes here.
+# BazaModelsStates
+
+States for BazaModels.
 
 ## Contributing to baza_models_states
 
