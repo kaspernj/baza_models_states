@@ -1,4 +1,4 @@
-[![Build Status](https://api.shippable.com/projects/55f5aebd1895ca447414f889/badge?branchName=master)](https://app.shippable.com/projects/55f5aebd1895ca447414f889/builds/latest)
+[![Build Status](https://img.shields.io/shippable/55f5aebd1895ca447414f889.svg)](https://app.shippable.com/projects/55f5aebd1895ca447414f889/builds/latest)
 
 # BazaModelsStates
 
