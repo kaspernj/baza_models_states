@@ -1,4 +1,4 @@
-[![Build Status](https://img.shields.io/shippable/55f5aebd1895ca447414f889.svg)](https://app.shippable.com/projects/55f5aebd1895ca447414f889/builds/latest)
+[![Build Status](https://www.peakflow.io/en/projects/baza_models_states/branch-statuses/master.svg)](https://www.peakflow.io/en/projects/best_practice_project)
 
 # BazaModelsStates
 
