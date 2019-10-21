@@ -3,7 +3,7 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 
-gem "baza_models", path: "/Users/kaspernj/Dev/Ruby/baza_models" #github: "kaspernj/baza_models" #">= 0.0.0"
+gem "baza_models", git: "https://github.com/kaspernj/baza_models.git" #">= 0.0.0" # path: "/Users/kaspernj/Dev/Ruby/baza_models"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
