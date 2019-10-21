@@ -1,5 +1,5 @@
 class BazaModelsStates::Configurator
-  attr_reader :callbacks, :state_attribute_name, :states
+  attr_reader :args, :callbacks, :state_attribute_name, :states
 
   def initialize(args)
     @args = args
@@ -24,8 +24,10 @@ class BazaModelsStates::Configurator
   end
 
   def set_initial_state_callback
+    configurator = self
+
     @model_class.after_initialize do |model|
-      model.assign_attributes(@state_attribute_name => @args.fetch(:states_args).fetch(:initial).to_s)
+      model.assign_attributes(configurator.state_attribute_name => configurator.args.fetch(:states_args).fetch(:initial).to_s) if configurator.args.fetch(:states_args)[:initial]
     end
   end
 
