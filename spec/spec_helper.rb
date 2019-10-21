@@ -1,5 +1,6 @@
-require 'simplecov'
+require "simplecov"
 require "baza"
+require "pry"
 require "sqlite3"
 
 module SimpleCov::Configuration
