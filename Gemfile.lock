@@ -101,7 +101,7 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
-    sqlite3 (1.4.1)
+    sqlite3 (1.4.2)
     string-cases (0.0.4)
     thread_safe (0.3.6)
     wref (0.0.8)
