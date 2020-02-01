@@ -58,7 +58,6 @@ GEM
       rake
       rdoc
       semver2
-    json (2.2.0)
     jwt (2.2.1)
     method_source (0.9.2)
     mime-types (2.99.3)
@@ -96,11 +95,10 @@ GEM
     rspec-support (3.9.0)
     semver2 (3.4.2)
     simple_delegate (0.0.2)
-    simplecov (0.17.1)
+    simplecov (0.18.1)
       docile (~> 1.1)
-      json (>= 1.8, < 3)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.2)
+      simplecov-html (~> 0.11.0)
+    simplecov-html (0.11.0)
     sqlite3 (1.4.2)
     string-cases (0.0.4)
     thread_safe (0.3.6)
