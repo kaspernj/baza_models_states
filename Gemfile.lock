@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/kaspernj/baza_models.git
-  revision: f51c4ae7fa6414881c20a7238678dc3550d8b6fc
+  revision: 91a2b98fd75095b8bb8fd1cc0509e64a0449db64
   specs:
-    baza_models (0.0.14)
+    baza_models (0.0.15)
       array_enumerator
       auto_autoloader
       baza
@@ -17,7 +17,7 @@ GEM
     array_enumerator (0.0.10)
     auto_autoloader (0.0.5)
       string-cases
-    baza (0.0.37)
+    baza (0.0.38)
       array_enumerator (~> 0.0.10)
       auto_autoloader (~> 0.0.5)
       datet (~> 0.0.25)
