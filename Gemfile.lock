@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kaspernj/baza_models.git
-  revision: 16e9388998961ed59eb05f1bbe8769b9e1dda3a3
+  revision: 5442b4348675b86e6fa2fac78a57270389dafa05
   specs:
     baza_models (0.0.15)
       array_enumerator
@@ -96,7 +96,7 @@ GEM
       rspec-support (~> 3.10.0)
     rspec-support (3.10.0)
     semver2 (3.4.2)
-    simple_delegate (0.0.2)
+    simple_delegate (0.0.4)
     simplecov (0.21.2)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
