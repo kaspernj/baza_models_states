@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kaspernj/baza_models.git
-  revision: 81cb376d2dd68700ac8b651f4c528d4fc279a3ae
+  revision: 5ee4639212db5ed9a3cefd22e07490284fd3ae48
   specs:
     baza_models (0.0.15)
       array_enumerator
