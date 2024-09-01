@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kaspernj/baza_models.git
-  revision: 2809d4ea9f06dd250ee16e20ef9ed95bb6345721
+  revision: be6a84b098f79855185640ee078cc4a8168090af
   specs:
     baza_models (0.0.15)
       array_enumerator
@@ -114,7 +114,7 @@ GEM
     stringio (3.1.0)
     thread_safe (0.3.6)
     weakling (0.0.3)
-    wref (0.0.9)
+    wref (0.0.10)
       ref
       weakling
 
