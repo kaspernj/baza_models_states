@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/kaspernj/baza_models.git
-  revision: 20a93dac332ed2c6e1e28f52a951ccedcb83d66f
+  revision: 46ad19e7359c4111821b7f5dc6bfef2a844775e1
   specs:
     baza_models (0.0.15)
       array_enumerator
@@ -9,6 +9,7 @@ GIT
       html_gen
       simple_delegate
       string-cases
+      wref (>= 0.0.11)
 
 GEM
   remote: http://rubygems.org/
@@ -16,14 +17,14 @@ GEM
     array_enumerator (0.0.10)
     auto_autoloader (0.0.5)
       string-cases
-    baza (0.0.38)
-      array_enumerator (~> 0.0.10)
-      auto_autoloader (~> 0.0.5)
-      datet (~> 0.0.25)
-      event_handler (~> 0.0.0)
-      simple_delegate (~> 0.0.2)
-      string-cases (~> 0.0.4)
-      wref (~> 0.0.8)
+    baza (0.0.39)
+      array_enumerator (>= 0.0.10)
+      auto_autoloader (>= 0.0.5)
+      datet (>= 0.0.25)
+      event_handler
+      simple_delegate (>= 0.0.2)
+      string-cases (>= 0.0.4)
+      wref (>= 0.0.11)
     coderay (1.1.3)
     date (3.4.1)
     datet (0.0.25)
@@ -78,10 +79,8 @@ GEM
       mini_portile2 (~> 2.8.0)
     string-cases (0.0.4)
     stringio (3.1.2)
-    weakling (0.0.3)
-    wref (0.0.10)
+    wref (0.0.11)
       ref
-      weakling
 
 PLATFORMS
   ruby
