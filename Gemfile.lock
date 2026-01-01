@@ -42,6 +42,7 @@ GEM
       rchardet (~> 1.8)
     html_gen (0.0.16)
       string-cases
+    io-console (0.8.2)
     jeweler (1.4.0)
       gemcutter (>= 0.1.0)
       git (>= 1.2.5)
@@ -49,9 +50,10 @@ GEM
     json_pure (2.8.1)
     method_source (1.1.0)
     mini_portile2 (2.8.5)
-    pry (0.15.2)
+    pry (0.16.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
+      reline (>= 0.6.0)
     psych (5.2.6)
       date
       stringio
@@ -61,6 +63,8 @@ GEM
       erb
       psych (>= 4.0.0)
     ref (2.0.0)
+    reline (0.6.3)
+      io-console (~> 0.5)
     rspec (3.13.1)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
