@@ -1,0 +1,23 @@
+rvm: true
+builds:
+  build_1:
+    environment:
+      RUBY_VERSION: 2.7.5
+    name: Ruby 2.7.5
+    paths: &ruby_build_paths
+      - lib/**
+      - spec/**
+      - Gemfile
+      - Gemfile.lock
+      - Rakefile
+      - peak_flow.yml
+      - tensorbuzz.yml
+    script:
+      - bundle exec rspec
+  build_2:
+    environment:
+      RUBY_VERSION: 3.0.3
+    name: Ruby 3.0.3
+    paths: *ruby_build_paths
+    script:
+      - bundle exec rspec
