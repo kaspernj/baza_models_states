@@ -4,11 +4,28 @@ builds:
     environment:
       RUBY_VERSION: 2.7.5
     name: Ruby 2.7.5
+    # These two entries are one Ruby-version test matrix. Path filtering may
+    # skip the whole matrix for unrelated changes, but must not split the
+    # matrix by path and silently remove coverage for either Ruby version.
+    paths:
+      - lib/**
+      - spec/**
+      - Gemfile
+      - Gemfile.lock
+      - Rakefile
+      - peak_flow.yml
     script:
       - bundle exec rspec
   build_2:
     environment:
       RUBY_VERSION: 3.0.3
     name: Ruby 3.0.3
+    paths:
+      - lib/**
+      - spec/**
+      - Gemfile
+      - Gemfile.lock
+      - Rakefile
+      - peak_flow.yml
     script:
       - bundle exec rspec
