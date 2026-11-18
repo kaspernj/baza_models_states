@@ -13,6 +13,7 @@ builds:
       - Gemfile.lock
       - Rakefile
       - peak_flow.yml
+      - .ruby-version
     script:
       - bundle exec rspec
   build_2:
@@ -26,5 +27,6 @@ builds:
       - Gemfile.lock
       - Rakefile
       - peak_flow.yml
+      - .ruby-version
     script:
       - bundle exec rspec
