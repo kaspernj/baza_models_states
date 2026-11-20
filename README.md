@@ -2,6 +2,8 @@
 
 # BazaModelsStates
 
+Path-filter skip proof delivery.
+
 States for BazaModels.
 
 ## Contributing to baza_models_states
