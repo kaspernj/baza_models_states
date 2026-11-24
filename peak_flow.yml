@@ -1,4 +1,5 @@
 rvm: true
+# Keep the Ruby matrix on the binary-supported pin declared by .ruby-version.
 builds:
   build_1:
     environment:
